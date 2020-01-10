@@ -30,7 +30,7 @@
 
 Name:           httpunit
 Version:        1.7
-Release:        14%{?dist}
+Release:        15%{?dist}
 Epoch:          0
 Summary:        Automated web site testing toolkit
 License:        MIT and ASL 2.0
@@ -164,6 +164,9 @@ popd
 %doc doc/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 01.7-15
+- Mass rebuild 2013-12-27
+
 * Fri Aug 02 2013 Michal Srb <msrb@redhat.com> - 0:1.7-14
 - Add create-tarball.sh script to SRPM
 
